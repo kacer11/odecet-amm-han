@@ -145,7 +145,7 @@ Elektroměr (RJ12)  →  RS485 modul  →  ESP32
 
 1. Klonuj repozitář:
    ```bash
-   git clone https://github.com/tvujucet/amm-esp32.git
+   git clone https://github.com/kacer11/odecet-amm-han.git
    ```
 2. Otevři `.ino` soubor v Arduino IDE
 3. Vyber správnou desku: **ESP32 Dev Module**
@@ -153,7 +153,7 @@ Elektroměr (RJ12)  →  RS485 modul  →  ESP32
 
 > **Alternativa bez Arduino IDE:** V repozitáři je přiložen předkompilovaný `.bin` soubor, který lze nahrát přímo do ESP32 Dev Board například pomocí nástroje [ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools) nebo příkazem:
 > ```bash
-> esptool.py --port COM3 write_flash 0x0 amm_cez_ver01.bin
+> esptool.py --port COM3 write_flash 0x0 ver01_CEZ.bin
 > ```
 > *(port COM3 nahraď správným portem svého zařízení)*
 
