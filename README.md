@@ -10,23 +10,23 @@ Firmware pro ESP32 umožňující odečet dat z AMM elektroměru (ČEZ) přes ro
 
 ## 📋 Obsah
 
-- [Proč používat odečet přes HAN?](#proč-používat-odečet-přes-han)
-- [Funkce](#funkce)
-- [Podporované elektroměry](#podporované-elektroměry)
-- [Používání v souladu s připojovacími podmínkami](#používání-v-souladu-s-připojovacími-podmínkami)
-- [Hardware](#hardware)
-- [Zapojení](#zapojení)
-- [Instalace](#instalace)
-- [Připojení](#připojení)
-- [Webové rozhraní](#webové-rozhraní)
-- [Mobilní layout](#mobilní-layout)
-- [Integrace s Home Assistant](#integrace-s-home-assistant)
-- [SD karta a logování](#sd-karta-a-logování)
-- [Události (eventy)](#události-eventy)
-- [OBIS kódy](#obis-kódy)
-- [Resetování zařízení](#resetování-zařízení)
-- [Jak tento projekt vznikl](#jak-tento-projekt-vznikl)
-- [Licence](#licence)
+- [Proč používat odečet přes HAN?](#-proč-používat-odečet-přes-han)
+- [Funkce](#-funkce)
+- [Podporované elektroměry](#-podporované-elektroměry)
+- [Používání v souladu s připojovacími podmínkami](#-používání-v-souladu-s-připojovacími-podmínkami)
+- [Hardware](#-hardware)
+- [Zapojení](#-zapojení)
+- [Instalace](#-instalace)
+- [Připojení](#-připojení)
+- [Webové rozhraní](#-webové-rozhraní)
+- [Mobilní layout](#-mobilní-layout)
+- [Integrace s Home Assistant](#-integrace-s-home-assistant)
+- [SD karta a logování](#-sd-karta-a-logování)
+- [Události (eventy)](#-události-eventy)
+- [OBIS kódy](#-obis-kódy)
+- [Resetování zařízení](#-resetování-zařízení)
+- [Jak tento projekt vznikl](#-jak-tento-projekt-vznikl)
+- [Licence](#-licence)
 
 ---
 
@@ -370,7 +370,7 @@ Viz soubor [LICENSE](LICENSE) pro úplné znění.
 
 ---
 
-## 🇬🇧 Summary (English)
+## 🌍 Summary (English)
 
 This project is an ESP32-based firmware for reading data from AMM smart meters used in Czech Republic via the HAN (RJ12) interface. It features a web-based dashboard, SD card logging, interactive charts, Home Assistant integration via MQTT Discovery, and OTA firmware updates. Works with both single-phase and three-phase meters. Built with ❤️ in the Czech Republic.
 
