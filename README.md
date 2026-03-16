@@ -311,7 +311,7 @@ V případě, že zařízení není dostupné přes síť, lze reset provést fy
 ## 🖼️ Screenshoty
 
 ### Hlavní stránka (desktop)
-![Hlavní stránka](screenshots/Hlavni_stranka.PNG)
+![Hlavní stránka](screenshots/Hlavni_stranka.png)
 
 ### Hlavní stránka (mobilní zobrazení)
 ![Hlavní stránka mobil](screenshots/Hlavni_stranka_mobil.png)
@@ -326,25 +326,25 @@ V případě, že zařízení není dostupné přes síť, lze reset provést fy
 ![Logy](screenshots/Stranka_logy.png)
 
 ### Eventy
-![Eventy](screenshots/Stranka_eventy.PNG)
+![Eventy](screenshots/Stranka_eventy.png)
 
 ### Nastavení
 ![Nastavení](screenshots/Stranka_nastaveni.png)
 
 ### Event – výměna elektroměru
-![Event výměna elektroměru](screenshots/Event_vymena_elm.PNG)
+![Event výměna elektroměru](screenshots/Event_vymena_elm.png)
 
 ### Event – vybitá RTC baterie
-![Event RTC baterie](screenshots/Event_RTC_baterie.PNG)
+![Event RTC baterie](screenshots/Event_RTC_baterie.png)
 
 ### Home Assistant – přehled zařízení
-![Zobrazení v HA](screenshots/Zobrazeni_v_HA.PNG)
+![Zobrazení v HA](screenshots/Zobrazeni_v_HA.png)
 
 ### Home Assistant – stav relé
-![Stav relé v HA](screenshots/Stav_rele_v_HA.PNG)
+![Stav relé v HA](screenshots/Stav_rele_v_HA.png)
 
 ### Home Assistant – RTC baterie
-![RTC baterie v HA](screenshots/RTC_baterie_HA.PNG)
+![RTC baterie v HA](screenshots/RTC_baterie_HA.png)
 
 ---
 
