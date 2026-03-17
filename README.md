@@ -1,5 +1,7 @@
 # ⚡ AMM Odečet elektroměru – ESP32
 
+<sub>English summary available below / Zkrácená anglická verze je níže</sub>
+
 Firmware pro ESP32 umožňující odečet dat z AMM elektroměru (ČEZ) přes rozhraní HAN, s webovým rozhraním a volitelnou integrací do Home Assistant.
 
 > ⚠️ Funkce pro EG.D a PRE není zatím k dispozici, jelikož nejsem na jejich distribučním území. Pokud mi dodáte RAW HEX, který elektroměr posílá, můžu se pokusit o jejich zprovoznění.
@@ -27,6 +29,7 @@ Firmware pro ESP32 umožňující odečet dat z AMM elektroměru (ČEZ) přes ro
 - [Resetování zařízení](#-resetování-zařízení)
 - [Jak tento projekt vznikl](#-jak-tento-projekt-vznikl)
 - [Licence](#-licence)
+- [Summary (English)](#-summary-english)
 
 ---
 
@@ -65,6 +68,10 @@ Při instalaci je nutné dodržet připojovací podmínky ČEZ Distribuce. Dle *
 Distributor zároveň specifikuje místo připojení rozhraní HAN:
 
 > *Rozhraní HAN se připojuje do konektoru RJ12 Female, který je umístěný a přístupný na relé boxu (není-li relé box instalován, pak je přístupný na elektroměru).*
+
+Na rozdíl od optického rozhraní (které je u AMM elektroměrů zakázáno) není připojené zařízení na rozhraní HAN nutné schvalovat. Rozhraní HAN je pouze pro čtení dat (read only) – není tedy možné přes něj jakkoliv ovlivnit funkci elektroměru, a z tohoto důvodu nepodléhá testování ani schvalovacímu procesu.
+
+> *Zařízení / převodník si pořizuje na své náklady uživatel DS, jeho napojení provádí uživatel DS.*
 
 > ⚠️ **Uživatel je povinen udržovat odběrné místo v souladu s technickými normami a připojovacími podmínkami distributora.**
 >
