@@ -42,7 +42,7 @@ Rozhraní HAN situaci mění: elektroměr přes něj odesílá naměřená data 
 ## ✅ Funkce
 
 - Čtení dat z AMM elektroměru přes RS485
-- Sledování 22 OBIS registrů (energie, výkon, tarifly, stav odpojovače…)
+- Sledování 22 OBIS registrů (energie, výkon, tarify, stav odpojovače…)
 - Webové rozhraní přístupné přes Wi-Fi (STA i AP mód)
 - Logování dat na SD kartu ve formátu CSV (denní soubory)
 - Logování událostí (eventy) do `.log` souborů
